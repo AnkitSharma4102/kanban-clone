@@ -1,0 +1,25 @@
+.sidePanel {
+    @apply sticky top-0 left-0 min-h-screen;
+  }
+  
+  .sidePanelHeader {
+    @apply h-20 border-b flex justify-between items-center px-[13px] sm:px-[22px];
+    
+  }
+  
+  .sidePanelHeaderText {
+    @apply flex text-xl font-semibold text-black gap-[9px];
+  }
+  
+  .sidePanelHeaderText h2 {
+    @apply hidden sm:block;
+  }
+  
+  .arrow {
+    @apply hidden sm:block;
+  }
+
+  .projectLogoText{
+    @apply hidden sm:block
+  }
+  

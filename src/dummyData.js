@@ -1,0 +1,106 @@
+export const dummyProjects = [
+    {
+      id: "project1",
+      name: "Mobile App",
+      color: "#7AC555",
+    },
+    {
+      id: "project2",
+      name: "Website Redesign",
+      color: "#FFA500",
+    },
+    {
+      id: "project3",
+      name: "Design System",
+      color: "#E4CCFD",
+    },
+    {
+      id: "project4",
+      name: "Wireframes",
+      color: "#76A5EA",
+    },
+  ];
+
+export const dummyTasks = [
+  {
+    id: "1",
+    title: "Brainstorming",
+    image: [],
+    description:
+      "Brainstorming brings team members' diverse experience into play. ",
+    priority: "low",
+    comments: 12,
+    files: 0,
+    users: ["User1", "User3", "User2"],
+    status: "todo",
+  },
+  {
+    id: "2",
+    title: "Research",
+    image: [],
+    description:
+      "User research helps you to create an optimal product for users.",
+    priority: "high",
+    comments: 10,
+    files: 3,
+    users: ["User4", "User5"],
+    status: "todo",
+  },
+  {
+    id: "3",
+    title: "Wirefreame",
+    image: [],
+    description:
+      "Low fidelity wireframes include the most basic content and visuals.",
+    priority: "high",
+    comments: 11,
+    files: 1,
+    users: ["User1", "User5", "User2"],
+    status: "todo",
+  },
+  {
+    id: "4",
+    title: "Onboarding Illustrations",
+    image: ["OnboardingIllustration"],
+    description: "",
+    priority: "low",
+    comments: 14,
+    files: 15,
+    users: ["User3", "User2", "User1"],
+    status: "inprogress",
+  },
+  {
+    id: "5",
+    title: "Moodboard",
+    image: ["Moodboard1", "Moodboard2"],
+    description: "",
+    priority: "low",
+    comments: 9,
+    files: 10,
+    users: ["User3"],
+    status: "inprogress",
+  },
+  {
+    id: "6",
+    title: "Mobile App Design",
+    image: ["MobileAppDesign"],
+    description: "",
+    priority: "low",
+    comments: 12,
+    files: 15,
+    users: ["User5", "User2"],
+    status: "completed",
+  },
+  {
+    id: "7",
+    title: "Design System",
+    image: [],
+    description: "It just needs to adapt the UI from what you did before ",
+    priority: "high",
+    comments: 12,
+    files: 15,
+    users: ["User1", "User3", "User2"],
+    status: "completed",
+  },
+]
+  

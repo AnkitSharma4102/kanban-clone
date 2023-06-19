@@ -1,0 +1,12 @@
+.main-container {
+    @apply flex w-full;
+  }
+  
+  .right-container {
+    @apply flex flex-col w-full border-l;
+  }
+  
+  .left-container {
+    @apply w-[50px] sm:min-w-[250px] xl:min-w-[280px];
+  }
+  

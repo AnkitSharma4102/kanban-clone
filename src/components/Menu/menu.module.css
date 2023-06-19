@@ -1,0 +1,16 @@
+.navMenu {
+    @apply my-0 mx-[13px] py-[30px] px-0 flex flex-col gap-[25px] border-b;
+  }
+  
+  .navMenuItem{
+    @apply flex text-base font-medium gap-[14px] sm:ml-[9px];
+  }
+  
+  .navMenuItem span {
+    @apply hidden sm:block;
+  }
+
+  .navItemText{
+    @apply hidden sm:block;
+  }
+ 

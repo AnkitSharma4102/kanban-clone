@@ -1,0 +1,19 @@
+.searchContainer {
+    @apply relative flex flex-col w-1/3 my-[22px] mx-0 py-[13px] px-0 rounded-[6px] bg-grey;
+  }
+  
+  .searchContainer span {
+    @apply md:absolute left-[18px];
+  }
+  
+  .searchContainer input {
+    @apply hidden md:block border-b border-b-transparent bg-grey focus:outline-none text-base w-1/2 p-0 ml-[55px];
+  }
+  
+  .searchContainer label {
+    @apply hidden xl:block absolute top-[10px] left-[55px] scale-100 text-lg font-normal pointer-events-none ease-out duration-200;
+  }
+
+  .icon{
+    @apply md:absolute left-[18px]
+  }
